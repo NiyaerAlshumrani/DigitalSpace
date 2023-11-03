@@ -1,0 +1,182 @@
+/*global*/
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Oswald' , sans-serif;
+}
+h1,h2,h3, h4{
+    text-align: center;
+    margin-bottom: 70px;
+    padding: 70px;
+}
+p{
+    line-height: 2;
+}
+/*utilities*/
+.container{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 70px;
+    box-shadow: 5px 5px gray;
+}
+
+/*header*/
+
+.top-header { 
+    background-image: url(images/logoo.png); 
+    background-size: cover; 
+    background-position: center; 
+        height: calc(150vh - 90px);
+  background-attachment: fixed;
+  background-size: cover;
+} 
+ 
+.top-header > h1 { 
+    color: white; 
+    background-color: rgba(0,0,0,0.0); 
+    padding: 2em 1em; 
+    font-family: sans-serif; 
+} 
+
+.top-header2 { 
+    background-image: url(images/mars.png); 
+    background-size: cover; 
+    background-position: center; 
+        height: calc(150vh - 90px);
+  background-attachment: fixed;
+  background-size: cover;
+} 
+ 
+.top-header2 > h1 { 
+    color: white; 
+    background-color: rgba(0,0,0,0.0); 
+    padding: 2em 1em; 
+    font-family: sans-serif; 
+} 
+.top-header3 { 
+    background-image: url(images/earth.png); 
+    background-size: cover; 
+    background-position: center; 
+        height: calc(80vh - 20px);
+  background-attachment: fixed;
+  background-size: cover;
+} 
+ 
+.top-header3 > h1 { 
+    color: white; 
+    background-color: rgba(0,0,0,0.0); 
+    padding: 2em 1em; 
+    font-family: sans-serif; 
+} 
+.top-header4 { 
+    background-image: url(images/spece.png); 
+    background-size: cover; 
+    background-position: center; 
+        height: calc(80vh - 20px);
+  background-attachment: fixed;
+  background-size: cover;
+    direction: rtl;
+} 
+ 
+.top-header4 > h1 { 
+    color: white; 
+    background-color: rgba(0,0,0,0.0); 
+
+} 
+/* menu*/
+nav{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    height: 2vh;
+}
+nav a{
+    color: rgb(199, 189, 189);
+    text-decoration: none;
+    margin-right: 30px;
+}
+nav a:hover{
+    font-weight: bold;
+    color: rgb(177, 123, 228);
+}
+h1{
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px white;
+}
+/*main*/
+
+main{
+    background-color: rgba(151, 41, 0.);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+aside{
+    background-color:  rgb(41, 151, 151);
+    width: 350px;
+}
+.index-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/*footer */
+footer{
+    text-align: center;
+    background-color: white;
+    height: 20vh;
+}
+.sm-items{
+    display: flex;
+    justify-content: center;
+}
+.sm-items{
+    color: white;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.lab p{
+    text-align: center;
+      direction: ltr;
+  background-color: var(--mainGrey);
+
+}
+.lab-card {
+  border-radius: 0 !important;
+}
+.lab-img {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+      width: 400px;
+  height: 300px;
+}
+.lab-value {
+  background-color: var(--mainBlue);
+  color: var(--mainWhite);
+  clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
+  transition: all 0.5s linear;
+}
+.lab-value:hover {
+  clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.contacts p{
+    text-align: center;
+}
+
+.registration p{
+    text-align: center;
+}
+
+.login p{
+    text-align: center;
+}
